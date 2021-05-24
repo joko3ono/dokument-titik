@@ -1,0 +1,6 @@
+configuration {
+  modi: "run,drun,combi";
+  theme: "~/.config/rofi/dracula.rasi";
+  font: "Fira Mono for Powerline 9";
+  combi-modi: "drun,run";
+}

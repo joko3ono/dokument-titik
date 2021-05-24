@@ -1,0 +1,3 @@
+#!/bin/sh
+
+brightnessctl i | grep -oh '[0-9][0-9]%' > ~/.local/share/brightness

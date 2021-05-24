@@ -1,0 +1,10 @@
+[alias]
+  co = checkout
+  st = status
+  br = branch
+  sync = !git fetch --all --prune && git rebase -p --autostash && git submodule update --init --recursive
+  publish = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
+  pick = cherry-pick
+[user]
+  email = joko.triono14@gmail.com
+  name = Joko Triono
