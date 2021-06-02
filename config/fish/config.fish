@@ -1,4 +1,5 @@
 set -x XDG_CONFIG_HOME '/home/joko/.config'
+source $HOME/.env.conf
 source $XDG_CONFIG_HOME/fish/env.fish
 source $XDG_CONFIG_HOME/fish/alias.fish
 

@@ -16,7 +16,7 @@
 ;; + `doom-variable-pitch-font'
 ;; + `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
-(setq doom-font (font-spec :family "Source Code Pro" :size 10))
+(setq doom-font (font-spec :family "CamingoCode" :size 11))
 
 ;;
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
@@ -28,11 +28,11 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 ;; (setq doom-theme 'doom-one)
-(setq doom-theme 'doom-dracula)
+(setq doom-theme 'doom-one)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/Dropbox/org/")
+(setq org-directory "~/Dropbox/Shared Notes/Org/")
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -56,3 +56,13 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 (setq whitespace-style '(face tabs tab-mark spaces space-mark trailing lines-tail))
+
+;; (defconst doom-frame-transparency 98)
+;; (set-frame-parameter (selected-frame) 'alpha doom-frame-transparency)
+;; (add-to-list 'default-frame-alist `(alpha . ,doom-frame-transparency))
+;; (defun dwc-smart-transparent-frame ()
+;;   (set-frame-parameter
+;;     (selected-frame)
+;;     'alpha (if (frame-parameter (selected-frame) 'fullscreen)
+;;               100
+;;              doom-frame-transparency)))
