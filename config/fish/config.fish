@@ -7,7 +7,7 @@ for cmd in mount umount eject pacman zypper su systemctl fdisk gdisk btrfs times
   alias $cmd="sudo $cmd"
 end
 
-status --is-interactive; and . (rbenv init -|psub)
+# status --is-interactive; and . (rbenv init -|psub)
 
 if status is-login
   if test -z "$DISPLAY" -a "$XDG_VTNR" = 1

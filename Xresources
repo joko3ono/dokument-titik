@@ -2,7 +2,7 @@
 st.alpha: 0.90
 
 !! Set a default font and font size as below:
-st.font: Iosevka Term:pixelsize=11
+st.font: Sometype Mono:pixelsize=11
 
 ! st.termname: st-256color
 st.borderpx: 1
@@ -30,3 +30,6 @@ st.background: #282a36
 st.foreground: #f8f8f2
 st.cursorColor: #f8f8f2
 /* Dracula themes end */
+
+background: #282a36
+foreground: #f8f8f2
