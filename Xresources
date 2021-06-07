@@ -8,22 +8,22 @@ st.font: Sometype Mono:pixelsize=11
 st.borderpx: 1
 
 /* Dracula Themes start */
-st.color0: #000000
-st.color1: #ff5555
-st.color2: #50fa7b
-st.color3: #f1fa8c
-st.color4: #bd93f9
-st.color5: #ff79c6
-st.color6: #8be9fd
-st.color7: #bbbbbb
-st.color8:  #44475a
-st.color9:  #ff5555
-st.color10: #50fa7b
-st.color11: #f1fa8c
-st.color12: #bd93f9
-st.color13: #ff79c6
-st.color14: #8be9fd
-st.color15: #ffffff
+*.color0: #000000
+*.color1: #ff5555
+*.color2: #50fa7b
+*.color3: #f1fa8c
+*.color4: #bd93f9
+*.color5: #ff79c6
+*.color6: #8be9fd
+*.color7: #bbbbbb
+*.color8:  #44475a
+*.color9:  #ff5555
+*.color10: #50fa7b
+*.color11: #f1fa8c
+*.color12: #bd93f9
+*.color13: #ff79c6
+*.color14: #8be9fd
+*.color15: #ffffff
 
 /* special colors */
 st.background: #282a36
@@ -33,3 +33,4 @@ st.cursorColor: #f8f8f2
 
 background: #282a36
 foreground: #f8f8f2
+highlight: #ff79c6

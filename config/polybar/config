@@ -17,186 +17,274 @@
 ;==========================================================
 
 [colors]
+background = ${xrdb:background:#000}
+foreground = ${xrdb:foreground:#dfdfdf}
+inactive = ${xrdb:inactive:#a3a3a3}
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
 
-background = ${xrdb:color0:#222}
-foreground = ${xrdb:color7:#222}
-highlight = ${xrdb:color15:#222}
-
-;  _                    
-; | |__   __ _ _ __ ___ 
-; | '_ \ / _` | '__/ __|
-; | |_) | (_| | |  \__ \
-; |_.__/ \__,_|_|  |___/
-
-[bar/base]
+[bar/bar]
 enable-ipc = true
-font-0=CozetteVector:pixelsize=9;2
-font-1=FontAwesome5Free:style=Solid:pixelsize=8:antialias=true;2
-font-2=IPAGothic:style=Regular:size=10:antialias=true;3
-
-padding = 2
-border-size = 0
-border-color = ${colors.foreground}
-
-height = 30
-;radius = 20
-;Works very well with a radius like this! Put it on every bar.
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 27
+offset-x = 0
+offset-y = 0
+radius = 0.0
+fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
-override-redirect=false
-offset-y = 10
+
+line-size = 3
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = fixed:pixelsize=10;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = Symbols Nerd Font:pixelsize=12;1
+
+modules-left = bspwm spotify
+# modules-center = spotify
+modules-right = filesystem pulseaudio memory cpu wlan battery date powermenu
+
+tray-position = center
+tray-padding = 2
+;tray-background = #0063ff
 
 wm-restack = bspwm
+;wm-restack = i3
 
-[bar/ws]
-inherit = bar/base
-width = 14.5%
+;override-redirect = true
 
-offset-x = 10
-line-size = 1
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
 
-modules-left = bspwm
-scroll-up = bspwm-desknext
-scroll-down = bspwm-deskprev
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
 
-[bar/music]
-inherit = bar/base
-enable-ipc = true
-width = 25%
+cursor-click = pointer
+cursor-scroll = ns-resize
 
-offset-x = 37.5%
-
-; Spotify (uses playerctl)
-; modules-left = previous playpause next 
-; modules-center = spotify
-; Mpd
-modules-center = mpd
-
-[bar/tray]
-inherit = bar/base
-width = 9%
-
-offset-x = 90.5%
-
-modules-left = pulseaudio time 
-
-;                      _       _           
-;  _ __ ___   ___   __| |_   _| | ___  ___ 
-; | '_ ` _ \ / _ \ / _` | | | | |/ _ \/ __|
-; | | | | | | (_) | (_| | |_| | |  __/\__ \
-; |_| |_| |_|\___/ \__,_|\__,_|_|\___||___/
-                                         
-[module/wsnumber]
-type = custom/script
-exec = bspc query -D -d focused --names
-tail = true
-interval = 0
-format-margin = 2
-format = "<label>"
-scroll-up = bspc desktop -f next
-scroll-down = bspc desktop -f prev
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:33:...%
-label-margin = 2
+label = %title:0:30:...%
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+
+label-layout = %layout%
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
 type = internal/bspwm
-reverse-scroll = false
 
-label-focused = %name%
-label-focused-underline = ${colors.highlight}
-label-focused-foreground = ${colors.highlight}
-label-focused-padding = 1
+ws-icon-0 = I;
+ws-icon-1 = II;
+ws-icon-2 = III;
+ws-icon-3 = IV;
 
-label-occupied = %name%
-label-occupied-foreground = ${colors.highlight}
-label-occupied-padding = 1
+label-focused = %icon%
+label-focused-background = ${colors.background}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
 
-label-empty = %name%
-label-empty-padding = 1
+label-occupied = %icon%
+label-occupied-padding = 2
 
-[module/mpd]
-type = internal/mpd
-host = 127.0.0.1
-port = 6600
-format-online = <icon-prev> <toggle> <icon-next>   <label-song>  <label-time>
-format-online-margin = 2
+label-urgent = %icon%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
 
-format-offline = <label-offline>
-label-offline =   offline
-format-offline-padding = 2
+label-empty = %icon%
+label-empty-foreground = ${colors.inactive}
+label-empty-padding = 2
 
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
+; Separator in between workspaces
+; label-separator = |
 
-label-song-maxlen = 50
-label-song-ellipsis = true
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+label = %percentage:2%%
 
-[module/time]
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+label = %percentage_used%%
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+label-connected = %essid%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-foreground = ${colors.foreground-alt}
+
+[module/date]
 type = internal/date
-interval = 10
-format-margin = 2
+interval = 5
 
-time = "%H:%M"
-date = "%d %b"
+date =
+date-alt = " %d-%m-%Y"
 
-label = %date%, %time%
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix = 
+format-prefix-foreground = ${colors.foreground-alt}
+
+label = %date% %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume-margin = 1
-format-volume = <ramp-volume> <label-volume>
-label-volume = %percentage:3:3%%
-use-ui-max = false
-interval = 5
+format-volume = <label-volume>
+label-volume = 墳  %percentage%%
+label-volume-foreground = ${root.foreground}
 
-ramp-volume-0 = ""
-ramp-volume-1 = ""
-ramp-volume-2 = ""
+label-muted = ﱝ  Muted
+label-muted-foreground = #666
 
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP0
+full-at = 98
 
-label-muted = "  muted"   
-label-muted-padding = 0
+format-charging = <animation-charging> <label-charging>
+format-charging-underline = #ffb52a
 
-;Spotify modules
+format-discharging = <animation-discharging> <label-discharging>
+format-discharging-underline = ${self.format-charging-underline}
+
+format-full-prefix = " "
+format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.foreground-alt}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-framerate = 750
+
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-framerate = 2500
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = ${colors.secondary}
+label-close = ﰸ cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = power off
+menu-2-0-exec = sudo poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
 
 [module/previous]
-type = custom/script
-exec = echo " "
-exec-if = "pgrep spotify"
-click-left = "playerctl previous"
+type = custom/ipc
+format-font = 2
+; Default
+hook-0 = echo ""
+; When spotify active
+hook-1 = echo "玲"
+click-left = "spotifyctl -q previous"
 
 
 [module/next]
-type = custom/script
-exec = echo "  "
-exec-if = "pgrep spotify"
-click-left = "playerctl next"
+type = custom/ipc
+format-font = 2
+; Default
+hook-0 = echo ""
+; When spotify active
+hook-1 = echo "怜"
+click-left = "spotifyctl -q next"
+
 
 [module/playpause]
-type = custom/script
-exec = spotifystatus
-exec-if = "pgrep spotify"
-format-padding = 1
-tail = true
-interval = 0
-click-left = "playerctl -p spotify play-pause"
+type = custom/ipc
+format-font = 2
+; Default
+hook-0 = echo ""
+; Playing
+hook-1 = echo ""
+; Paused
+hook-2 = echo "契"
+click-left = "spotifyctl -q playpause"
 
 
 [module/spotify]
-type = custom/script
-exec = playerctl -p spotify metadata --format '{{artist}} - {{title}}'
-exec-if = "pgrep spotify"
-format-padding = 1
-tail = true
-interval = 1
+type = custom/ipc
+; Default
+hook-0 = echo ""
+; Playing/paused show song name and artist
+hook-1 = spotifyctl -q status --format '  %artist%: %title%'
 
 [settings]
 screenchange-reload = true
@@ -204,13 +292,10 @@ screenchange-reload = true
 ;compositing-background = screen
 ;compositing-foreground = source
 ;compositing-border = over
-;pseudo-transparency = true
+;pseudo-transparency = false
 
 [global/wm]
 margin-top = 0
 margin-bottom = 0
 
 ; vim:ft=dosini
-                      
-
-

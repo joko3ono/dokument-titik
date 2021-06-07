@@ -16,7 +16,7 @@
 ;; + `doom-variable-pitch-font'
 ;; + `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
-(setq doom-font (font-spec :family "CamingoCode" :size 11))
+(setq doom-font (font-spec :family "Sometype Mono" :size 11))
 
 ;;
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd

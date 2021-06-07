@@ -1,5 +1,5 @@
 set -x TERMINAL st
-set -x PATH "$PATH:$HOME/.local/bin:$HOME/.rbenv/bin:$HOME/.emacs.d/bin"
+set -x PATH "$PATH:$HOME/.local/bin:$HOME/.rbenv/shims:$HOME/.emacs.d/bin"
 set -x EDITOR 'vim'
 
 ## Fish related

@@ -3,8 +3,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 pgrep -x picom > /dev/null || picom &
 $HOME/.config/polybar/launch.sh
-nitrogen --restore
-$HOME/.local/bin/remaps
+$HOME/.local/bin/remaps & spotify-listener & disown & nitrogen --restore & dunst
 
 bspc monitor -d I II III IV
 
@@ -17,3 +16,4 @@ bspc config gapless_monocle      true
 
 bspc rule -a Chromium desktop='^2'
 bspc rule -a firefox desktop='^2'
+bspc rule -a spotify desktop='^3'
