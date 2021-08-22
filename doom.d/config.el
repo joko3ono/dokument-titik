@@ -16,7 +16,7 @@
 ;; + `doom-variable-pitch-font'
 ;; + `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
-(setq doom-font (font-spec :family "Fira Mono for Powerline" :size 10))
+(setq doom-font (font-spec :family "Input Mono" :size 13))
 
 ;;
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
@@ -57,12 +57,12 @@
 ;; they are implemented.
 (setq whitespace-style '(face tabs tab-mark spaces space-mark trailing lines-tail))
 
-;; (defconst doom-frame-transparency 98)
-;; (set-frame-parameter (selected-frame) 'alpha doom-frame-transparency)
-;; (add-to-list 'default-frame-alist `(alpha . ,doom-frame-transparency))
-;; (defun dwc-smart-transparent-frame ()
-;;   (set-frame-parameter
-;;     (selected-frame)
-;;     'alpha (if (frame-parameter (selected-frame) 'fullscreen)
-;;               100
-;;              doom-frame-transparency)))
+;;(defconst doom-frame-transparency 95)
+;;(set-frame-parameter (selected-frame) 'alpha doom-frame-transparency)
+;;(add-to-list 'default-frame-alist `(alpha . ,doom-frame-transparency))
+;;(defun dwc-smart-transparent-frame ()
+;;  (set-frame-parameter
+;;    (selected-frame)
+;;    'alpha (if (frame-parameter (selected-frame) 'fullscreen)
+;;              100
+;;             doom-frame-transparency)))

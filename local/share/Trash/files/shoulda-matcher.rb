@@ -1,0 +1,1 @@
+../../vendor/shared/spec/support/shoulda-matcher.rb

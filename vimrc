@@ -4,8 +4,10 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'preservim/nerdtree'
 
 Plug 'tpope/vim-fugitive'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf.vim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'godlygeek/tabular'
 Plug 'airblade/vim-gitgutter'
@@ -37,7 +39,7 @@ set backupdir=~/.vim/backups
 set directory=~/.vim/tmp
 " Where temporary files will go
 set clipboard=unnamedplus
-set foldmethod=syntax
+set foldmethod=indent
 set laststatus=2
 
 set relativenumber
@@ -66,7 +68,7 @@ set colorcolumn=160
 au BufNewFile,BufRead *.json.jbuilder set ft=ruby
 
 " Fzf
-set rtp+=/usr/local/opt/fzf
+" set rtp+=/usr/local/opt/fzf
 
 function IndentV()
   Tabularize /^[^:]*\zs:/r1c0l0
@@ -114,8 +116,9 @@ nnoremap <leader>gg :Generator<space>
 " Taking note
 nnoremap <leader>nn :Note<space>
 
-nmap <leader>pf :Files<cr>
-nmap <leader>gf :GFiles<cr>
+nmap <leader>pf :Telescope find_files<cr>
+nmap <leader>pb :Telescope buffers<cr>
+nmap <leader>ph :Telescope help_tags<cr>
 " Settings
 nmap <leader>fer :source ~/.vimrc<cr>
 nmap <leader>fed :e ~/.vimrc<cr>

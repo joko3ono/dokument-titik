@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/joko/Downloads/Checkout-Tokopedia.png" added="2021-07-22T10:27:51.710334Z" modified="2021-07-22T10:29:04.690288Z" visited="2021-07-22T10:27:51.710340Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-22T10:29:04.690281Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/example-import-asset.csv" added="2021-07-23T01:41:52.099648Z" modified="2021-08-14T13:06:15.473116Z" visited="2021-07-23T01:41:52.099654Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-14T13:06:15.473108Z" count="46"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/data-guide-import-asset.csv" added="2021-07-23T02:20:29.936884Z" modified="2021-08-08T23:16:49.761547Z" visited="2021-07-23T02:20:29.936893Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-08T23:16:49.761535Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/data-guide-import-asset(1).csv" added="2021-07-23T02:26:46.120090Z" modified="2021-08-08T23:16:29.763741Z" visited="2021-07-23T02:26:46.120096Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-08T23:16:29.763729Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/example-import-asset(1).csv" added="2021-07-23T02:31:44.804420Z" modified="2021-08-14T13:05:45.349186Z" visited="2021-07-23T02:31:44.804426Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-14T13:05:45.349180Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/import_people_template.csv" added="2021-07-23T02:47:23.693077Z" modified="2021-07-23T02:54:01.278157Z" visited="2021-07-23T02:47:23.693084Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-23T02:54:01.278149Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/import_lockers_template.csv" added="2021-07-23T04:19:42.607653Z" modified="2021-07-26T23:38:43.639166Z" visited="2021-07-23T04:19:42.607659Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-26T23:38:43.639157Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/zoom_x86_64.pkg.tar.xz" added="2021-07-24T11:49:50.262752Z" modified="2021-07-24T11:49:50.262776Z" visited="2021-07-24T11:49:50.262759Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-24T11:49:50.262766Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/.screenlayout/double" added="2021-07-27T07:09:08.346608Z" modified="2021-07-27T07:09:08.346630Z" visited="2021-07-27T07:09:08.346614Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2021-07-27T07:09:08.346621Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/.screenlayout/single" added="2021-07-27T07:15:17.634041Z" modified="2021-07-27T07:15:17.634057Z" visited="2021-07-27T07:15:17.634045Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2021-07-27T07:15:17.634051Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/.screenlayout/double.sh" added="2021-07-27T07:15:21.402886Z" modified="2021-08-04T04:27:36.442756Z" visited="2021-07-27T07:15:21.402891Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2021-08-04T04:27:36.442748Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/.screenlayout/single.sh" added="2021-07-27T07:17:35.536153Z" modified="2021-07-27T07:17:35.536167Z" visited="2021-07-27T07:17:35.536156Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2021-07-27T07:17:35.536160Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Comparing-development-test-model-line-item-%C2%B7-onedev111-gigwage_dev.png" added="2021-07-28T01:40:10.658991Z" modified="2021-07-28T01:40:23.096680Z" visited="2021-07-28T01:40:10.658996Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-28T01:40:11.496624Z" count="2"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-07-28T01:40:23.096671Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/ss.png" added="2021-07-28T02:02:17.283698Z" modified="2021-07-28T18:18:58.220680Z" visited="2021-07-28T02:02:17.283704Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-07-28T18:18:58.220673Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/ssh.png" added="2021-07-28T06:32:40.795750Z" modified="2021-07-28T06:32:40.795773Z" visited="2021-07-28T06:32:40.795757Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-07-28T06:32:40.795766Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/People%20-%20Cards.png" added="2021-07-28T08:54:43.872556Z" modified="2021-07-28T08:55:44.848644Z" visited="2021-07-28T08:54:43.872562Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-28T08:54:43.872569Z" count="1"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-07-28T08:55:44.848637Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/fire-emblem-wallpaper-3.jpg" added="2021-07-29T16:24:12.094471Z" modified="2021-07-29T16:24:12.094494Z" visited="2021-07-29T16:24:12.094477Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-29T16:24:12.094487Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/node-v10.24.1.tar.gz" added="2021-07-29T21:34:32.434557Z" modified="2021-07-29T21:34:32.434581Z" visited="2021-07-29T21:34:32.434564Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-29T21:34:32.434571Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/node-v10.24.1-linux-x64.tar.gz" added="2021-07-29T21:48:53.240854Z" modified="2021-07-29T21:48:53.240879Z" visited="2021-07-29T21:48:53.240861Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-29T21:48:53.240869Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Gig-Wage-Easy-Payments-for-1099-Independent-Contractors-1099-Payroll.png" added="2021-07-29T22:26:48.195388Z" modified="2021-07-29T22:27:18.213514Z" visited="2021-07-29T22:26:48.195394Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-29T22:26:48.865625Z" count="2"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-07-29T22:27:18.213507Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/NoMethodError-at-businesses-businesses-new.png" added="2021-07-29T23:36:51.726179Z" modified="2021-07-29T23:37:12.617385Z" visited="2021-07-29T23:36:51.726188Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-29T23:36:52.183612Z" count="2"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-07-29T23:37:12.617377Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/gigwage_batch_template.csv" added="2021-07-30T01:18:26.202868Z" modified="2021-07-30T01:18:26.202901Z" visited="2021-07-30T01:18:26.202875Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-07-30T01:18:26.202887Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/gigwage_dev-processor_record-rb-at-development-%C2%B7-onedev111-gigwage_dev.png" added="2021-08-03T01:32:57.581822Z" modified="2021-08-03T01:33:09.624698Z" visited="2021-08-03T01:32:57.581828Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-03T01:32:58.037789Z" count="2"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-03T01:33:09.624690Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/reactivate.png" added="2021-08-03T01:34:31.410453Z" modified="2021-08-03T01:34:31.410478Z" visited="2021-08-03T01:34:31.410460Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-03T01:34:31.410469Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/reactivate.png" added="2021-08-04T04:50:59.991828Z" modified="2021-08-09T21:45:31.427608Z" visited="2021-08-04T04:50:59.991835Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-04T04:54:30.078431Z" count="4"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-09T21:45:31.427599Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/out.ogv" added="2021-08-04T06:57:17.993838Z" modified="2021-08-04T06:57:17.993857Z" visited="2021-08-04T06:57:17.993843Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/ogg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-04T06:57:17.993850Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/out.gif" added="2021-08-04T06:57:47.109347Z" modified="2021-08-04T06:57:47.109369Z" visited="2021-08-04T06:57:47.109354Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-04T06:57:47.109360Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Collect%20Asset.postman_collection.json" added="2021-08-05T11:58:28.695028Z" modified="2021-08-05T11:58:45.424867Z" visited="2021-08-05T11:58:28.695034Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-05T11:58:28.695044Z" count="1"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-05T11:58:45.424857Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Verify-Asset-Info-My-Workspace.png" added="2021-08-05T12:30:44.433617Z" modified="2021-08-05T12:30:52.566392Z" visited="2021-08-05T12:30:44.433624Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-05T12:30:44.912385Z" count="2"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-05T12:30:52.566382Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Deploy-asset-into-locker-My-Workspace.png" added="2021-08-05T12:31:58.681973Z" modified="2021-08-05T12:32:06.573454Z" visited="2021-08-05T12:31:58.681979Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-05T12:31:59.104749Z" count="2"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-05T12:32:06.573444Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Deploy%20and%20Clearout%20Modes.pptx" added="2021-08-06T04:40:02.367065Z" modified="2021-08-06T04:40:02.367081Z" visited="2021-08-06T04:40:02.367068Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-06T04:40:02.367075Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/asset_type_list-09%20Aug%2001%2030.csv" added="2021-08-09T01:30:21.362601Z" modified="2021-08-09T01:30:21.362653Z" visited="2021-08-09T01:30:21.362610Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-09T01:30:21.362643Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/free.csv" added="2021-08-09T04:40:23.449755Z" modified="2021-08-09T04:40:44.678953Z" visited="2021-08-09T04:40:23.449761Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-09T04:40:44.678946Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Code/github.com/onedev111/gigwage_dev" added="2021-08-09T17:34:21.114023Z" modified="2021-08-09T17:34:21.114037Z" visited="2021-08-09T17:34:21.114026Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-08-09T17:34:21.114030Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Code/github.com/onedev111/gigwage_dev/ENV" added="2021-08-09T21:42:57.047027Z" modified="2021-08-09T21:42:57.047110Z" visited="2021-08-09T21:42:57.047033Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-09T21:42:57.047099Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/reactivate2.png" added="2021-08-09T21:49:45.085259Z" modified="2021-08-09T22:02:05.387026Z" visited="2021-08-09T21:49:45.085266Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-09T22:01:55.444039Z" count="3"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-09T22:02:05.387017Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/processor-record.png" added="2021-08-11T00:46:51.780056Z" modified="2021-08-11T00:46:51.780088Z" visited="2021-08-11T00:46:51.780062Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-11T00:46:51.780074Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/deploy.png" added="2021-08-11T13:46:46.340783Z" modified="2021-08-11T13:46:46.340805Z" visited="2021-08-11T13:46:46.340790Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-11T13:46:46.340797Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Screen%20Recording%202021-08-10%20at%2014.56.10.mov" added="2021-08-11T14:12:36.880584Z" modified="2021-08-11T14:12:36.880625Z" visited="2021-08-11T14:12:36.880591Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/quicktime"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-11T14:12:36.880609Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/spec.png" added="2021-08-12T13:11:53.953872Z" modified="2021-08-19T19:06:03.555338Z" visited="2021-08-12T13:11:53.953879Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-19T19:06:03.555331Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/internal_sub.png" added="2021-08-12T15:42:36.756821Z" modified="2021-08-12T15:42:36.756843Z" visited="2021-08-12T15:42:36.756827Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-12T15:42:36.756835Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/cron-time-format.png" added="2021-08-13T09:23:34.665374Z" modified="2021-08-13T09:23:41.625727Z" visited="2021-08-13T09:23:34.665380Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-13T09:23:34.999718Z" count="2"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-13T09:23:41.625719Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/uninstall_gems.sh" added="2021-08-14T11:37:45.549463Z" modified="2021-08-14T11:37:45.958233Z" visited="2021-08-14T11:37:45.549470Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-14T11:37:45.958223Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Action-Controller-Exception-caught.png" added="2021-08-19T02:53:51.895960Z" modified="2021-08-19T02:54:06.502802Z" visited="2021-08-19T02:53:51.895967Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-19T02:54:06.502791Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/time.png" added="2021-08-19T19:13:16.525860Z" modified="2021-08-19T19:13:16.525885Z" visited="2021-08-19T19:13:16.525867Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-19T19:13:16.525876Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/Collect-Lockers-Locker-Action-Logs-5kvkm9.png" added="2021-08-20T09:22:54.191316Z" modified="2021-08-20T09:23:05.159961Z" visited="2021-08-20T09:22:54.191323Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-20T09:22:54.585023Z" count="2"/>
+          <bookmark:application name="slack" exec="&apos;slack %u&apos;" modified="2021-08-20T09:23:05.159954Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joko/Downloads/RubyMine-2021.2.tar.gz" added="2021-08-20T16:57:07.777698Z" modified="2021-08-20T16:57:07.777992Z" visited="2021-08-20T16:57:07.777978Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-08-20T16:57:07.777985Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

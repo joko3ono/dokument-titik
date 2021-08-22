@@ -1,1 +1,1 @@
-/home/joko/.local/share/omf/themes/boxfish/fish_prompt.fish
+/home/joko/.local/share/omf/themes/flash/fish_prompt.fish

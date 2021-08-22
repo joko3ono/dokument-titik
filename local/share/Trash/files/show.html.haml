@@ -1,0 +1,14 @@
+.container-fluid
+  .row
+    .col-12
+      .card.m-2
+        .card-body
+          %h4= link_to 'Techbar Asset Imports List', collect_assets_imports_path
+
+          - if @csv_import.imported?
+            All assets data imported.
+          - elsif @csv_import.with_errors?
+            Next errors occurred:
+            %span{ style: 'color: red;' }= @csv_import.import_errors.html_safe
+          - else
+            Import still in progress.

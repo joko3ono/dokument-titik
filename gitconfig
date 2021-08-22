@@ -8,3 +8,7 @@
 [user]
   email = joko.triono14@gmail.com
   name = Joko Triono
+  #name = Dave Krupinski
+  #email = krupinskidev@gmail.com
+[log]
+  date = iso

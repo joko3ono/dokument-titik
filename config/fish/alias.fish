@@ -1,3 +1,4 @@
+alias git='TZ=America/New_York /usr/bin/git'
 alias v="vim"
 alias nv="nvim"
 alias svim='sudo vim'
@@ -30,3 +31,4 @@ alias ls="exa --long --header --git"
 alias lsr="ranger"
 alias g='ghq'
 alias gg='ghq get -u .'
+

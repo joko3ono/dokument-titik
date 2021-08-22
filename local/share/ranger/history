@@ -1,0 +1,40 @@
+rename .gemrc
+rename .gitconfig
+rename .vimrc
+rename .xinitrc
+rename .Xresources
+rename i3
+rename i3lock
+rename peco
+rename picom
+rename powerline
+rename ranger
+rename rofi
+rename .doom.d
+rename upwork-5.5.0.11-1-x86_64.deb
+rename upwork_5.5.0.11_amd642.deb
+mkdir jessie-sample
+mkdir app
+mkdir controllers
+mkdir config
+mkdir models
+
+mkdir spec
+mkdir features
+rename upwork-5.5.0.11_amd64.deb
+rename upwork_5.5.0.11_amd64.deb
+rename shared
+rename .rubocop.yml
+rename database.yml
+search tmux
+rename .tmux.conf
+rename gigwage.org_archive
+rename gigwage.org
+rename elocker.org
+rename .deft
+rename .env
+rename 
+rename upwork_5.6.7.13_amd64.debo
+deletey
+delete
+rename upwork_5.6.7.13_amd64.deb
